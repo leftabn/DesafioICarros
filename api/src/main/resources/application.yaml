@@ -1,0 +1,16 @@
+api:
+  ergast:
+    results: "https://ergast.com/api"
+
+spring:
+  mvc:
+    converters:
+      preferred-json-mapper: gson
+  security:
+    user:
+      name: user
+      password: ""
+
+springdoc:
+  swagger-ui:
+    path: "/swagger-ui.html"
